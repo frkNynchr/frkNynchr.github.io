@@ -1,0 +1,388 @@
+@font-face {
+    font-family: Century Gothic;
+    src: url(font/CenturyGothicPaneuropeanRegular.ttf) url(font/CenturyGothicPaneuropeanBold.ttf) url(font/CenturyGothicPaneuropeanLight.ttf) url(font/CenturyGothicPaneuropeanThin.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/headimg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Century Gothic;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    overflow-y: auto;
+    max-height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*-------------------------- ayraç --------------------------*/
+
+
+.display {
+    font-family: Century Gothic;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/*-------------------------- ayraç --------------------------*/
+.head {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: rgb(55, 20, 90);
+
+}
+
+.head img {
+    width: 350px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.head nav {
+    float: right;
+    margin-right: 25px;
+}
+
+.head nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.head nav ul li {
+    display: inline-block;
+}
+
+.head nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-right: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+/*-------------------------- ayraç --------------------------*/
+
+header {
+    background-color: rgba(250, 235, 215, 0.3);
+    background-image: url(img/headimg2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 950px;
+
+}
+
+
+/*-------------------------- ayraç --------------------------*/
+
+.article-1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.article-1 .img {
+    width: 450px;
+    height: 450px;
+}
+
+.article-1 .caption {
+    width: 700px;
+
+}
+
+.article-1 h3 {
+    font-family: Century Gothic;
+    font-weight: 400;
+}
+
+.split {
+    width: 1700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*-------------------------- ayraç --------------------------*/
+.article-2 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.sertifikalar {
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sertifika {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    border-radius: 50px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.24);
+    align-items: center;
+}
+
+.sertifika img {
+    width: 200px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.sertifika a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    color: black;
+}
+
+/*-------------------------- ayraç --------------------------*/
+.article-3 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.project {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 sütun */
+    gap: 50px 100px;
+    /* satır ve sütun aralıkları */
+    padding: 25px;
+
+}
+
+.proj {
+    background-color: rgba(0, 0, 0, 0.24);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    border-radius: 50px;
+}
+
+.proj:hover {
+    background-color: rgba(255, 255, 255, 0.329)
+}
+
+
+.area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.area a {
+    width: 250px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.proj img {
+    width: 100px;
+    height: 100px;
+}
+
+/*-------------------------- ayraç --------------------------*/
+.article-4 {
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0px 0px 50px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* container  contleft contleftitle  contright inputs */
+.container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contleft {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.contleftitle h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contleftitle hr {
+    border: none;
+    width: 240px;
+    height: 5px;
+    background-color: rgb(247, 208, 162);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.inputs {
+    width: 500px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.contleft textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.inputs:focus {
+    border: 2px solid rgb(247, 208, 162);
+}
+
+.inputs::placeholder {
+    color: black;
+}
+
+.contleft button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(247, 208, 162);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.contleft button:hover,
+.contleft button:focus {
+    /* box-shadow: inset 120px 0 0 0 rgb(170, 141, 107);*/
+    color: white;
+}
+
+.contright img {
+    width: 400px;
+}
+
+/*-------------------------- ayraç --------------------------*/
+footer {
+    background: #111;
+    height: auto;
+    width: 100%;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer h3 {
+    margin: 10px auto;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+
+.footer p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials {
+    width: 300px;
+}
+
+.socials ul {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.socials ul li {
+    margin: 0 10px;
+}
+
+.socials ul li a {
+    text-decoration: none;
+}
+
+
+.socials ul li a img {
+    width: 50px;
+    background-color: rgba(250, 235, 215);
+    border-radius: 5px;
+}
